@@ -1,0 +1,16 @@
+{
+  "name": "farmainforme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Aplicación docente de informes farmacoterapéuticos y tutorial reproducible",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/farmainforme.test.mjs",
+    "test:farmainforme": "node --test tests/farmainforme.test.mjs",
+    "test:browser": "python3 scripts/test-farmainforme.py",
+    "serve": "python3 -m http.server 8765 --bind 127.0.0.1"
+  }
+}
